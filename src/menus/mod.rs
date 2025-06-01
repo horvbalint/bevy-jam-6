@@ -1,9 +1,9 @@
 //! The game's menus and transitions between them.
 
-mod credits;
-mod main;
-mod pause;
-mod settings;
+pub mod credits;
+pub mod main;
+pub mod pause;
+pub mod settings;
 
 use bevy::prelude::*;
 
